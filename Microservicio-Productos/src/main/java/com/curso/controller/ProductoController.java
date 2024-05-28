@@ -3,6 +3,7 @@ package com.curso.controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
@@ -17,7 +18,7 @@ public class ProductoController {
 	@Autowired
 	ProductosService service;
 	
-	@GetMapping(value="productos")
+	@GetMapping(value="productos", produces=MediaType.APPLICATION_JSON_VALUE)
 	List<Producto> listaProductos(){
 		return service.listaProductos();
 	}
@@ -27,7 +28,7 @@ public class ProductoController {
 		return service.productoPorCodigo(codigo);
 	}
 	
-	@PutMapping(value="productos/actualizar/{codigo}/{unidades}")
+	@PutMapping(value="productos/actualizar/{codigo}/{unidades}", consumes=MediaType.APPLICATION_JSON_VALUE)
     public List<Producto> actualizarStockProducto(@PathVariable("codigo") int codigo, @PathVariable("unidades") int unidades) {
         return service.actualizarStockProducto(codigo, unidades);
     }
