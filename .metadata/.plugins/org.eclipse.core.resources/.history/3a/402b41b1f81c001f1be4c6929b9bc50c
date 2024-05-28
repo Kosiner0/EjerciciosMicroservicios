@@ -1,0 +1,27 @@
+package com.curso.service;
+
+import java.util.List;
+
+import com.curso.model.Producto;
+
+public class ProductosServiceImpl implements ProductosService {
+
+	@Override
+	public List<Producto> listaProductos() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<Producto> actualzarProducto(int codigo, int unidades) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public double getPrecioProducto(int codigo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

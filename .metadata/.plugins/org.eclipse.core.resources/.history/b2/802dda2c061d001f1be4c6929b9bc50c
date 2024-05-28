@@ -1,0 +1,14 @@
+spring.application.name=Microservicio-Productos
+# Database configuration
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://localhost:3306/microservicios_prods_peds
+spring.datasource.username=root
+spring.datasource.password=root
+
+# JPA configuration
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+
+
+server.port=8000
