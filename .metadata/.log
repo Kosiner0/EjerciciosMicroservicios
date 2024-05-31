@@ -2139,3 +2139,33 @@ java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
 	... 8 more
+
+!ENTRY org.eclipse.egit.core 4 0 2024-05-31 10:22:06.852
+!MESSAGE An exception occurred during push on URI https://github.com/Kosiner0/EjerciciosMicroservicios: https://github.com/Kosiner0/EjerciciosMicroservicios: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Kosiner0/EjerciciosMicroservicios: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1537)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-05-31 10:22:06.860
+!MESSAGE Can't connect to any repository: https://github.com/Kosiner0/EjerciciosMicroservicios (https://github.com/Kosiner0/EjerciciosMicroservicios: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-05-31 10:22:41.253
+!MESSAGE An exception occurred during push on URI https://github.com/Kosiner0/EjerciciosMicroservicios: https://github.com/Kosiner0/EjerciciosMicroservicios: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Kosiner0/EjerciciosMicroservicios: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1537)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:204)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
