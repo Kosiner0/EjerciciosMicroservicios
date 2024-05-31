@@ -28,7 +28,7 @@ public class ProductoController {
 		return service.productoPorCodigo(codigo);
 	}
 	
-	@PutMapping(value="productos/actualizar/{codigo}/{unidades}", consumes=MediaType.APPLICATION_JSON_VALUE)
+	@PutMapping(value="productos/actualizar/{codigo}/{unidades}", produces=MediaType.APPLICATION_JSON_VALUE)
     public List<Producto> actualizarStockProducto(@PathVariable("codigo") int codigo, @PathVariable("unidades") int unidades) {
         return service.actualizarStockProducto(codigo, unidades);
     }
