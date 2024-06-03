@@ -13,5 +13,5 @@ public interface CursoDao extends JpaRepository<Curso, Integer> {
 		List<Curso> buscarPorPrecio(double minPrecio, double maxPrecio);
 	*/
 	
-	List<Curso> findByIdPrecioBetween(double minPrecio, double maxPrecio);
+	List<Curso> findByPrecioBetween(double minPrecio, double maxPrecio);
 }
