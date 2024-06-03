@@ -32,7 +32,7 @@ public class HotelController {
 		return service.alta(hotel);
 	}
 	
-	@DeleteMapping(value="hoteles/eliminar/{idHotel}", consumes=MediaType.APPLICATION_JSON_VALUE)
+	@DeleteMapping(value="hoteles/eliminar/{idHotel}", produces=MediaType.APPLICATION_JSON_VALUE)
 	List<Hotel> eliminar(@PathVariable int idHotel){
 		return service.eliminar(idHotel);
 	}

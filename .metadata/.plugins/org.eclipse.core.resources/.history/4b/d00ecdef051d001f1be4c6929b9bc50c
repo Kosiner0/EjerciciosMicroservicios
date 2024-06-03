@@ -1,5 +1,0 @@
-INSERT INTO Producto (nombre, stock, precio) VALUES ('Producto A', 100, 10.50);
-INSERT INTO Producto (nombre, stock, precio) VALUES ('Producto B', 150, 20.00);
-INSERT INTO Producto (nombre, stock, precio) VALUES ('Producto C', 200, 30.75);
-INSERT INTO Producto (nombre, stock, precio) VALUES ('Producto D', 250, 40.25);
-INSERT INTO Producto (nombre, stock, precio) VALUES ('Producto E', 300, 50.10);

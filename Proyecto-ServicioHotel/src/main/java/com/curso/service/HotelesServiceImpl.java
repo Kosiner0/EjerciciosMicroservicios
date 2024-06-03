@@ -13,7 +13,7 @@ public class HotelesServiceImpl implements HotelesService {
 
 	@Autowired
 	HotelDao dao;
-	
+
 	
 	@Override
 	public List<Hotel> hoteles() {
