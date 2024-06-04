@@ -48,7 +48,7 @@ public class HotelesServiceImpl implements HotelesService {
 	}
 
 	@Override
-	public List<Hotel> datosHotel(String nombre) {
+	public Hotel datosHotel(String nombre) {
 		return dao.datosHotel(nombre);
 	}
 

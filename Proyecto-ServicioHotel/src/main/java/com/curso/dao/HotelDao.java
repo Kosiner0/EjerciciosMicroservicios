@@ -14,6 +14,6 @@ public interface HotelDao extends JpaRepository<Hotel, Integer> {
 	List<Hotel> hotelesDisponibles();
 	
 	@Query("SELECT h FROM Hotel h WHERE h.nombre = :nombre")
-	List<Hotel> datosHotel(String nombre);
+	Hotel datosHotel(String nombre);
 	
 }

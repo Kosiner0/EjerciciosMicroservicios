@@ -12,6 +12,6 @@ public interface HotelesService {
 	void actualizarCategoria(int idHotel, String nuevaCategoria);
 	
 	List<Hotel> hotelesDisponibles();
-	List<Hotel> datosHotel(String nombre);
+	Hotel datosHotel(String nombre);
 	
 }

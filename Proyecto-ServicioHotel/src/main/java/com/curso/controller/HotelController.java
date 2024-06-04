@@ -48,9 +48,9 @@ public class HotelController {
 	}
 	
 	@GetMapping(value="hoteles/datos/{nombre}", produces=MediaType.APPLICATION_JSON_VALUE)
-	List<Hotel> datosHotel(@PathVariable String nombre){
+	Hotel datosHotel(@PathVariable String nombre){
 		return service.datosHotel(nombre);
 	}
 	
-	
+
 }
