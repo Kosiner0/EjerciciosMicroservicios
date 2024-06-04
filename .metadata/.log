@@ -4792,3 +4792,393 @@ java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
 	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 15:05:30.105
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 15:05:30.107
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 15:05:31.674
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 15:05:39.379
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 15:05:41.031
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 15:05:42.543
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 15:23:55.480
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 15:24:01.785
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 15:24:59.990
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 15:25:06.287
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 15:30:58.202
+!MESSAGE Classpath changed for project: Proyecto-ServicioVuelos
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 15:30:58.237
+!MESSAGE An internal error occurred during: "Send Classpath Notifications".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:29)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.tooling.ls.eclipse.commons_4.22.1.202405011602
+	... 4 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 15:34:14.930
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 15:34:23.801
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 15:49:03.931
+!MESSAGE Classpath changed for project: Proyecto-ServicioVuelos
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 15:49:03.933
+!MESSAGE An internal error occurred during: "Send Classpath Notifications".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:29)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.tooling.ls.eclipse.commons_4.22.1.202405011602
+	... 4 more
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 15:49:03.935
+!MESSAGE Boot project REMOVED: Proyecto-ServicioVuelos
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 15:49:08.568
+!MESSAGE Classpath changed for project: Proyecto-ServicioVuelos
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-06-04 15:49:08.570
+!MESSAGE Boot project ADDED: Proyecto-ServicioVuelos
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-06-04 15:49:08.635
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 15:50:11.918
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 16:00:58.055
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 16:01:04.905
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 17:24:20.431
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 17:24:26.671
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 17:25:20.225
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 17:25:26.351
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 17:25:37.601
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 17:25:43.856
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 17:26:24.060
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-06-04 17:26:30.395
+!MESSAGE An internal error occurred during: "Refresh PollingLiveExp".
+!STACK 0
+java.lang.NoClassDefFoundError: org/eclipse/lsp4e/LanguageServers
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.getLanguageServers(BootLsCommandUtils.java:33)
+	at org.springframework.ide.eclipse.boot.launch.BootLsCommandUtils.executeCommand(BootLsCommandUtils.java:45)
+	at org.springframework.ide.eclipse.boot.dash.model.AbstractLaunchConfigurationsDashElement.lambda$7(AbstractLaunchConfigurationsDashElement.java:609)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$3.compute(PollingLiveExp.java:136)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:74)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp.refresh(PollingLiveExp.java:73)
+	at org.springframework.ide.eclipse.boot.dash.livexp.PollingLiveExp$1.run(PollingLiveExp.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: org.eclipse.lsp4e.LanguageServers cannot be found by org.springframework.ide.eclipse.boot.launch_4.22.1.202405011620
+	... 8 more

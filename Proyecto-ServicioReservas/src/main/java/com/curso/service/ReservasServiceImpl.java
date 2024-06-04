@@ -37,7 +37,6 @@ public class ReservasServiceImpl implements ReservasService {
 	@Override
 	public List<Reserva> altaVuelo(Reserva reserva, int numPersonas) {
 		dao.save(reserva);
-		
 		restTemplate.put(urlVuelos + "vuelos/actualizar/{idVuelo}/{numPlazas}", null, reserva.getIdVuelo(), numPersonas);
 		
 		return dao.findAll();
